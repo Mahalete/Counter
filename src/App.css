@@ -10,15 +10,17 @@ footer {
 footer {
   text-align: center;
 }
-main .numberCircle {
-  background: lightsalmon;
-  border: 0.01em solid #0f1c3f;
+h2 {
+  height: 200px;
+  width: 200px;
+  background: grey;
+
   border-radius: 50%;
   margin-top: 2rem;
   margin-left: 40%;
-  height: 5em;
-  width: 5em;
+
   text-align: center;
+  padding-top: 76px;
   font: 40px Arial, sans-serif;
 }
 button {
@@ -33,7 +35,13 @@ button {
   margin-top: 2rem;
   margin-left: 1rem;
   position: relative;
-  left: 25%;
+  left: 17%;
+}
+.circleClass even {
+  background-color: lightsalmon;
+}
+.circleClass odd {
+  background-color: lightskyblue;
 }
 
 @media (prefers-reduced-motion: no-preference) {

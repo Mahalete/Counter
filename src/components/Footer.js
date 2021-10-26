@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <footer>
       <p>
-        <small> Made by Mahalete Haile</small>
+        <small> Mahalete Haile 2021</small>
       </p>
     </footer>
   );
