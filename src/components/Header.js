@@ -1,7 +1,9 @@
+import React from "react";
+
 const Header = () => {
   return (
     <header>
-      <h1>Counter App</h1>
+      <h1>Counter</h1>
     </header>
   );
 };

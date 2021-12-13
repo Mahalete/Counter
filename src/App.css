@@ -1,47 +1,10 @@
 .App {
   text-align: center;
 }
-header,
-footer {
-  background-color: grey;
-  margin: 1rem;
-  padding: 1rem;
-}
-footer {
-  text-align: center;
-}
-h2 {
-  height: 200px;
-  width: 200px;
-  background: grey;
 
-  border-radius: 50%;
-  margin-top: 2rem;
-  margin-left: 40%;
-
-  text-align: center;
-  padding-top: 76px;
-  font: 40px Arial, sans-serif;
-}
-button {
-  background-color: grey; /* Green */
-  border: none;
-  border-radius: 3px;
-  color: white;
-  padding: 15px 32px;
-  text-decoration: none;
-  font-size: 16px;
-  width: 13%;
-  margin-top: 2rem;
-  margin-left: 1rem;
-  position: relative;
-  left: 17%;
-}
-.circleClass even {
-  background-color: lightsalmon;
-}
-.circleClass odd {
-  background-color: lightskyblue;
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
